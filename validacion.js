@@ -1,16 +1,16 @@
-//Haz tú validación en javascript acá
 
-var $html = {
-    nombre: document.querySelector(".nombre"),
-    email: document.querySelector(".email"),
-    asunto: document.querySelector(".asunto"),
-    mensaje: document.querySelector("mensaje"),
 
-}
+const $form = document.querySelector('#form')
+const $buttonMailto = document.querySelector('#truco')
 
-function validarDatos(){
-    window.event.preventDefault()
+$form.addEventListener('submit', validarDatos)
 
+function validarDatos(event){
+    event.preventDefault()
+    const form = new FormData(this)
+    $buttonMailto.setAttribute('href', `mailto:claudiotorancio@gmail.com?subject=Nombre: ${form.get('nombre')} Correo: ${form.get('email')} Asunto: ${form.get('asunto')}&body=${form.get('mensaje')}`)
+    
+    
     if (document.form.nombre.value =="") {
         alert("campo nombre obligatorio")
         
@@ -32,13 +32,17 @@ function validarDatos(){
         
     }else if (document.form.nombre.value!="" && document.form.email.value !="" && document.form.asunto.value !=""&& document.form.mensaje.value !=""){
         setTimeout(alertaEnviado, 250)
-        form.reset()
+       
     }
+
     
 }
 
 function alertaEnviado() {
-    
-        alert("Mensaje enviado, a la brevedad me pondre en contacto!")
+   
+    alert("Datos Validados!")
+    $buttonMailto.click()
+    form.reset()
  
 }
+

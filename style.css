@@ -1,6 +1,5 @@
 :root{
-    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
-    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+ 
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #000;
    --color-titulos: #464646;
@@ -31,14 +30,6 @@ html {
     
 }
 
-/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
-Lo que es el BEM?
-BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
-desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
-independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
-con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
-Enlace de la documentación oficial!
-https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Menu*/
 
@@ -491,6 +482,10 @@ form.formcontato__form button.formcontato__botao{
     color: white;
 }
 
+#truco {
+    opacity: 0;
+}
+
 /*footeer*/
 
 section.footer{
@@ -498,6 +493,5 @@ section.footer{
    
 }
 
-/* Vamos a desafiarnos trabajando con responsividad?
-Utiliza las referencias de los breakpoints @media abajo */
+
 

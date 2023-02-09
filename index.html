@@ -3,17 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="icon" type="image/x-icon" href="assets/curriculum-vitae-icon-2.jpg" />
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Fonte del Proyecto Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
-    <title> Mi Portafolio</title>
+    <title> Proyecto Final</title>
 </head>
 
 <body>
-    <!-- Sección del Menú  -->
     <div class="tudo">
         <section class="menu">
             <header class="menu__header">
@@ -32,7 +30,6 @@
             </nav>
         </section>
 
-        <!-- Sección del Header/Title/Hero -->
         <section class="title">
             <div class="title__div">
                 <img class="title__profile" src="assets/foto_perfil.png">
@@ -41,7 +38,6 @@
                     <h3 class="title__subsection">Tengo experiencia en herramientas de informatica y actualmente estoy
                         participando del proyecto #SeProgramar</h3>
                     <ul class="title__network">
-                        <!-- Pon los enlaces de tus redes sociales favoritas -->
                         <li class="title__network__item"><a href="https://github.com/claudiotorancio">Github <img
                                     src="assets\arrow.png"> </a></li>
                         <li class="title__network__item"><a
@@ -57,8 +53,6 @@
                 </div>
             </div>
         </section>
-
-        <!-- Sección sobre mi -->
         <section class="about" id="sobre-mi">
             <div class="about__container">
                 <h3 class="about__title">Sobre mi</h3>
@@ -70,12 +64,10 @@
                     una sociedad, es por ello que dedico todo mi tiempo disponible para la capacitacion de nuevas formas
                     de tecnologia que
                     puedan ayudarme a lograr los objetivos emprendidos.</p>
-                <!-- Si quieres, pon tú firma acá! -->
                 <img src="assets\signature.png">
             </div>
         </section>
 
-        <!-- Sección de Skills -->
         <section class="skills" id="skills">
             <h3 class="skills__title">Skills</h3>
             <div class="skills__line">
@@ -124,7 +116,6 @@
             </div>
         </section>
 
-        <!-- Sección de Hobbies -->
         <section class="hobbies" id="hobbies">
             <h3 class="hobbies__title">Hobbies</h3>
             <div class="hobbies__line">
@@ -172,13 +163,11 @@
             </div>
         </section>
 
-        <!-- Sección de Formación académica -->
         <section class="academic" id="formacion">
             <h2 class="academic__title">Formación académica</h2>
             <div class="academic__courses">
                 <div class="academic__courses__box">
                     <ul class="academic__courses__list">
-                        <!-- Pon el logotipo de la institución de formación -->
                         <li class="academic__courses__item__img"><img src="assets/autocad.png"></li>
                         <li class="academic__courses__item__title">
                             <h4>Curso intensivo de Autocad y CivilCad 3d</h4>
@@ -190,7 +179,6 @@
                 </div>
                 <div class="academic__courses__box">
                     <ul class="academic__courses__list">
-                        <!--Pon el logotipo de la institución de formación -->
                         <li class="academic__courses__item__img"><img src="assets\alura_logo.png"></li>
                         <li class="academic__courses__item__title">
                             <h4>Formación en principiante de programación</h4>
@@ -202,7 +190,6 @@
                 </div>
                 <div class="academic__courses__box">
                     <ul class="academic__courses__list">
-                        <!-- Pon el logotipo de la institución de formación -->
                         <li class="academic__courses__item__img"><img src="assets/ArgPrograma.jpg"></li>
                         <li class="academic__courses__item__title">
                             <h4>Programacion</h4>
@@ -214,20 +201,16 @@
                 </div>
             </div>
         </section>
-
-        <!-- Sección de Experiencia Profesional/Proyectos-->
         <section class="experience" id="xp">
             <h2 class="experience__section__title">Experiencia Profesional</h2>
 
 
             <div class="experience__box">
-                <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
                 <img class="experience__img" src="assets/deodificador.png">
                 <div class="experience__info">
                     <h2 class="experience__title">Encriptador de texto</h2>
                     <h3 class="experience__text">Challenge Oracle </h3>
                     <div class="experience__description">
-                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
                         <span class="experience__repo"><a href="https://github.com/claudiotorancio/Encriptador"><button
                                     class="experiencia__botao--repo">Repositório</button></a></span>
                         <span class="experience__demo"><a href="https://claudiotorancio.github.io/Encriptador/"><button
@@ -242,7 +225,6 @@
                     <h2 class="experience__title">Juego creado con HTML, CSS y JavaScript</h2>
                     <h3 class="experience__text">Challenge Oracle </h3>
                     <div class="experience__description">
-                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
                         <span class="experience__repo"><a href="https://github.com/claudiotorancio/Ahorcado"><button
                                     class="experiencia__botao--repo">Repositório</button></a></span>
                         <span class="experience__demo"><a href="https://claudiotorancio.github.io/Ahorcado/index.html"><button
@@ -251,7 +233,6 @@
                 </div>
             </div>
 
-            <!-- Sección de Contacto -->
             <section class="formcontato" id="contacto">
                 <div class="formcontato__contacto">
                     <div class="formcontato--esquerda">
@@ -262,20 +243,20 @@
                         <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
                         <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con
                             usted lo antes posible. </h3>
-                        <form action="https://formsubmit.co/claudiotorancio@gmail.com" method="POST" class="formcontato__form" name="form">
+                        <form id="form" class="formcontato__form" name="form">
                             <input class="nombre" type="text" name="nombre" placeholder="Nombre">
                             <input class="email" type="email" name="email" placeholder="E-mail">
                             <input class="asunto" type="text" name="asunto" placeholder="Assunto">
                             <textarea class="formcontato__textarea" rows="5" cols="40" id="mensaje" name="mensaje"
                                 placeholder="Mensaje"></textarea>
                             <button type="submit" class="formcontato__botao" action="javascript:void(0)"
-                                onclick="validarDatos()">Enviar mensaje</button>
+                                >Enviar mensaje</button>
                         </form>
+                        <a href="mailto:claudiotorancio@gmail.com" id="truco">mail</a>
                     </div>
                 </div>
             </section>
 
-            <!-- Sección de Footer -->
             <section class="footer">
                 <div class="footer__rodape">
                     <p>Desarrollado por Claudio Torancio</p>
@@ -283,7 +264,6 @@
                 </div>
             </section>
     </div>
-    <!-- Script del documento JavaScript -->
     <script src="validacion.js"></script>
 </body>
 
