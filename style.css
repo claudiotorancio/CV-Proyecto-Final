@@ -27,12 +27,7 @@ html {
     font-size: 16px;
 }
 
-div.tudo{
-   
-    width: 100%;
-    display: flex;
-  flex-direction: column;
-}
+
 
 
 /*Sección Menu*/
@@ -509,27 +504,52 @@ section.footer{
     section.menu{
         
  
-        align-items: center;
+       display: none;
     
     }
     section.title div.title__div img.title__profile {
-        display: none;
+        align-content: center;
+        width: 10rem;
+        height: 10rem;
+     
       }
 
       section.menu nav ul.menu__list {
   
         display:block;
         flex-direction: column;
+        text-align: center;
        
     }
 
     section.academic div.academic__courses{
-        width: 100%;
+    
         display: flex;
         flex-direction: column;
+       align-items: center;
+       text-align: center;
     }
 
+    section.experience div.experience__box {
+
+        display: flex;
+       flex-direction: column;
     
+    }
+
+    section.experience div.experience__box1 {
+
+        display: flex;
+       flex-direction: column;
+    
+    }
+
+    section.formcontato div.formcontato__contacto{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding:  8rem 9rem;
+    }
     
 
     }
@@ -537,13 +557,12 @@ section.footer{
 
 @media (min-width:320px) and (max-width:768px) {
 
-    html {
-        width: auto;
     
-       
-    }
+
+    
     section.menu {
-        margin-left: 0;
+        display: none;
+        
        
     }
 
