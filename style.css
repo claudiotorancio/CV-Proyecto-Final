@@ -518,12 +518,48 @@ section.footer {
 
     }
 
-    section.title div.title__div img.title__profile {
-        align-content: center;
-        width: 10rem;
-        height: 10rem;
+    section.title div.title__div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    section.title div.title__container {
+        width: 500px;
+    }
+
+    section.title div.title__container h2 {
+        font-size: 2.3rem;
+        text-align: center;
+
+
 
     }
+
+    section.title div.title__container h3 {
+
+        text-align: center;
+
+
+
+
+    }
+
+    section.title div.title__div div.title__container ul.title__network {
+
+        margin-left: 0;
+        padding-left: 0;
+
+    }
+
+    section.title div.title__div img.title__profile {
+        display: none;
+
+
+
+
+    }
+
+
 
     section.menu nav ul.menu__list {
 
@@ -531,6 +567,10 @@ section.footer {
         flex-direction: column;
         text-align: center;
 
+    }
+
+    section.academic {
+        align-items: center;
     }
 
     section.academic div.academic__courses {
@@ -575,22 +615,26 @@ section.footer {
         display: none;
 
 
+
     }
 
     section.title {
-
+        width: 380px;
         margin-left: 0%;
-
-
+        padding-top: 350px;
+        background-image: url(./assets/foto_perfil.png);
+        background-repeat: no-repeat;
+        background-position: top;
 
     }
 
     section.title div.title__div div.title__container {
+        width: 380px;
         text-align: center;
     }
 
     section.title div.title__div div.title__container ul.title__network {
-
+        width: 380px;
         margin-left: 0;
         padding-left: 0;
 
@@ -599,6 +643,13 @@ section.footer {
     section.title div.title__div img.title__profile {
         display: none;
 
+    }
+    section.about div.about__container {
+       
+        width:100%;
+        margin-left: 0;
+        margin-bottom: 2rem;
+        text-align: center;
     }
 
     section.menu nav ul.menu__list {
@@ -636,6 +687,8 @@ section.footer {
         flex-direction: column;
 
     }
+
+    
 
     section.experience div.experience__box1 {
 
