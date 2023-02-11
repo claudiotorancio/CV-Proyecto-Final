@@ -96,6 +96,9 @@ section.title div.title__div {
 }
 
 /*titulo ppal*/
+section.title {
+    margin-left: 9rem;
+}
 
 
 section.title div.title__container h2 {
