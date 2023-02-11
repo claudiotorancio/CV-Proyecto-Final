@@ -79,8 +79,7 @@ section.menu nav ul.menu__list {
 /*Sección Title*/
 
 section.title {
-    margin-left: 9rem;
-    display: flex;
+
     width: 80%;
     color: var(--color-titulos);
 
@@ -510,24 +509,24 @@ section.footer {
     /*Sección Menu*/
 
 
-
     section.menu {
-
-
-        display: none;
-
+        margin: 0;
     }
 
-    section.title div.title__div {
-        display: flex;
-        justify-content: space-between;
-    }
+
+
+
+
 
     section.title div.title__container {
+
         width: 500px;
+
     }
 
     section.title div.title__container h2 {
+
+
         font-size: 2.3rem;
         text-align: center;
 
@@ -554,53 +553,47 @@ section.footer {
     section.title div.title__div img.title__profile {
         display: none;
 
-
-
-
     }
-
-
 
     section.menu nav ul.menu__list {
-
-        display: block;
-        flex-direction: column;
-        text-align: center;
-
+        margin-left: 5rem;
+        width: 35rem;
+        font-size: 15px;
     }
 
-    section.academic {
-        align-items: center;
-    }
 
-    section.academic div.academic__courses {
+section.academic {
+    align-items: center;
+}
 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+section.academic div.academic__courses {
 
-    section.experience div.experience__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 
-        display: flex;
-        flex-direction: column;
+section.experience div.experience__box {
 
-    }
+    display: flex;
+    flex-direction: column;
 
-    section.experience div.experience__box1 {
+}
 
-        display: flex;
-        flex-direction: column;
+section.experience div.experience__box1 {
 
-    }
+    display: flex;
+    flex-direction: column;
 
-    section.formcontato div.formcontato__contacto {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        padding: 8rem 9rem;
-    }
+}
+
+section.formcontato div.formcontato__contacto {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 9rem;
+}
 
 
 }
@@ -619,12 +612,12 @@ section.footer {
     }
 
     section.title {
-        width: 380px;
-        margin-left: 0%;
-        padding-top: 350px;
+        margin-left: 10px;
         background-image: url(./assets/foto_perfil.png);
         background-repeat: no-repeat;
-        background-position: top;
+        width: 380px;
+        padding-top: 350px;
+
 
     }
 
@@ -644,9 +637,10 @@ section.footer {
         display: none;
 
     }
+
     section.about div.about__container {
-       
-        width:100%;
+
+        width: 100%;
         margin-left: 0;
         margin-bottom: 2rem;
         text-align: center;
@@ -657,6 +651,34 @@ section.footer {
         display: flex;
         flex-direction: column;
 
+    }
+
+    section.skills {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+    }
+
+    section.hobbies {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+    }
+
+    section.skills div.skills__line {
+
+        width: 300px;
+
+    }
+
+    section.hobbies div.hobbies__line {
+        width: 300px;
+    }
+
+    section.academic {
+        align-items: center;
     }
 
     section.academic div.academic__courses {
@@ -682,18 +704,35 @@ section.footer {
     }
 
     section.experience div.experience__box {
-
+        margin-left: 0;
         display: flex;
         flex-direction: column;
+        width: 400PX;
+        align-content: center;
 
     }
 
-    
+    div.experience__box div.experience__info {
+
+        padding: 2rem;
+
+    }
+
+
+
 
     section.experience div.experience__box1 {
-
+        margin-left: 0;
         display: flex;
         flex-direction: column;
+        width: 400PX;
+        align-content: center;
+
+    }
+
+    div.experience__box1 div.experience__info {
+
+        padding: 2rem;
 
     }
 
